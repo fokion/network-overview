@@ -8,7 +8,7 @@ export default function Graph({elements}) {
         console.log('flow loaded:', reactFlowInstance);
         reactFlowInstance.fitView();
     };
-    const onConnect = (params)=>{
+    const onConnect = (params) => {
         console.log(params)
     }
 
@@ -18,8 +18,8 @@ export default function Graph({elements}) {
                        {
                            router: RouterNode,
                            internet: Internet,
-                           camera : CameraNode,
-                           computer : ComputerNode
+                           camera: CameraNode,
+                           computer: ComputerNode
                        }
                    }
                    onConnect={onConnect}

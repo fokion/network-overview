@@ -32,5 +32,5 @@ export default {
     router: router,
     internet: internet,
     computer: computer,
-    storage : storage
+    storage: storage
 }
