@@ -1,4 +1,5 @@
-mkdir -p /apps/
+mkdir -p /app
+mkdir -p /etc/sysconfig/
 echo "INFO : Creating user network-overview"
 useradd -d /app/network-overview network-overview -s /bin/bash -c "network-overview"
 mkdir -p /logs/network-overview
