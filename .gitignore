@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+endpoints.json
 # next.js
 /.next/
 /out/

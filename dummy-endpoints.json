@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "internet",
+      "position": {
+        "x": 50,
+        "y": 0
+      }
+    },
+    {
+      "id": "router",
+      "type": "router",
+      "data": {
+        "name": "Router"
+      },
+      "position": {
+        "x": 50,
+        "y": 75
+      }
+    },
+    {
+      "id": "internet-router",
+      "source": "0",
+      "target": "router",
+      "animated": true
+    }
+  ]
+}
