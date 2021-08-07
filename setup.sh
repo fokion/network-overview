@@ -8,6 +8,8 @@ cp network-overview.service /etc/systemd/system/network-overview.service
 echo "INFO : Copying network-overview configuration"
 cp network-overview.conf /etc/sysconfig/network-overview.conf
 source /etc/sysconfig/network-overview.conf
+npm i
+npm run build
 systemctl enable network-overview.service
 systemctl restart network-overview.service
 echo "INFO : Started network-overview at ${PORT}"
