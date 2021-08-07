@@ -1,0 +1,12 @@
+[Service]
+ExecStart=/bin/sh -c '/bin/npm start >> /logs/network-overview.log 2>&1'
+WorkingDirectory=/app/network-overview
+Restart=always
+StandardOutput=null
+StandardError=null
+SyslogIdentifier=network-overview
+User=network-overview
+Group=network-overview
+EnvironmentFile=/etc/sysconfig/network-overview.conf
+[Install]
+WantedBy=multi-user.target
